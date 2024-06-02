@@ -1,19 +1,34 @@
-# rn-assignment2-ID
-
-This is a React Native project created with Expo CLI using TypeScript.
+# Task Manager App
 
 ## Description
 
-This project is created to fulfill the following requirements:
+This is a simple Task Manager application built with React Native. The app includes the following core components: View, Text, ScrollView, TextInput, StyleSheet, Button, FlatList, and Image. It also features custom components for managing categories and tasks.
 
-- Change the background color of the `View` component.
-- Edit the `Text` component to display "My name is YourName".
-- Increase the font size of the text to 24.
-- Make the name "YourName" bold.
+## Components
+
+### Header
+
+- Renders the app title and a search bar.
+- Located in `src/components/Header.tsx`.
+
+### CategoryList
+
+- Displays a horizontal list of categories with icons.
+- Located in `src/components/CategoryList.tsx`.
+
+### TaskList
+
+- Renders a list of ongoing tasks.
+- Located in `src/components/TaskList.tsx`.
+
+### TaskItem
+
+- Displays individual task items.
+- Located in `src/components/TaskItem.tsx`.
 
 ## Screenshot
 
-![Screenshot](202%20screenshot.png)
+![Screenshot](/Assignment3Screenshot.png.png)
 
 ## Student ID
 
